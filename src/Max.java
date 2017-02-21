@@ -7,10 +7,32 @@ public class Max {
     public static void main(String[] args) {
 
 
-        calculMinimMaxim();
-        calculMinimMaxim();
+//        calculMinimMaxim();
+//        calculMinimMaxim();
+
+        afiseazaTablaICuCinci();
 
     }
+
+
+    public static void afiseazaTablaICuCinci() {
+        System.out.println("sdbdfsfasd");
+
+        // 0x5=0
+        // 1x5=5
+        //2x5=10
+        //...
+        //10x5=50
+
+
+       for(int a=0;a<=10;a++) {
+            for (int i = 0; i <= 10; i++) {
+                System.out.println(i + "x" + a + "=" + a * i);
+            }
+        }
+
+    }
+
 
     public static void calculMinimMaxim(){
         Scanner citire= new Scanner(System.in);

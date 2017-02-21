@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+/* basic demo of while and do while for manual testers */
 public class Max {
 
 

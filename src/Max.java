@@ -20,21 +20,21 @@ public class Max {
 
 
 
-//        do {
-//            System.out.print("Introdu lungimea sirului= ");
-//            lungimesir1 = citire.nextInt();
-//        }
-//        while(lungimesir1<=0);
-
-
-
-        System.out.print("Introdu lungimea sirului= ");
-        lungimesir1 = citire.nextInt();
-        while(lungimesir1<1)
-        {
+        do {
             System.out.print("Introdu lungimea sirului= ");
             lungimesir1 = citire.nextInt();
         }
+        while(lungimesir1<=0);
+
+
+
+//        System.out.print("Introdu lungimea sirului= ");
+//        lungimesir1 = citire.nextInt();
+//        while(lungimesir1<1)
+//        {
+//            System.out.print("Introdu lungimea sirului= ");
+//            lungimesir1 = citire.nextInt();
+//        }
 
 
 //        while(true) {
